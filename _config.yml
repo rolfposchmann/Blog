@@ -3,6 +3,7 @@
 markdown:         kramdown 
 #highlighter:      pygments   <--- unsupported on GitHub Pages
 highlighter:      rouge
+mathjax:          true
 
 # Permalinks
 permalink:        pretty

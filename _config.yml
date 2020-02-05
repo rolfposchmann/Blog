@@ -1,0 +1,41 @@
+# Dependencies
+#markdown:         redcarpet  <---- is no longer supported 
+markdown:         kramdown 
+#highlighter:      pygments   <--- unsupported on GitHub Pages
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: false
+
+# Setup
+title:            "Rolf's Blog"
+tagline:          "Rolf's personal blog"
+#description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      "An engineering and coding diary"
+url:              https://blog.poschmann.me
+baseurl:          "/"
+
+twitter:
+  username: alpha_rolf
+  card: summary
+
+author:
+  name:           'Rolf Poschmann'
+  url:            https://twitter.com/alpha_rolf
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/rolfposchmann
+
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+#  - pygments.rb
+#  - redcarpet

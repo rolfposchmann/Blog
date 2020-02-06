@@ -86,7 +86,7 @@ for number in A:
 		odd_list.append(number)
 ```
 
-We could create a third list now to store our values, but this would be wasting memory. Instead, we append our odd list to our even list. And then we return our even list. It is important to **not** use the append command as it will create a list in a list which is what we don't want.
+We could create a third list now to store our values, but this would be wasting memory. Instead, we add our odd list to our even list. And then we return our even list. It is important to **not** use the append command as it will create a list in a list which is what we don't want.
 
 ```python
 # Append
